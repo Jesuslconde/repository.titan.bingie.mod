@@ -94,7 +94,8 @@
 	
 <!-- TITAN BINGIE MOD -->
 <!-- BINGIE -->
-<addon id="skin.titan.bingie.mod" version="2.3.0" name="BINGIE MOD" provider-name="AchillesPunks, Matke">
+<!-- BINGIE -->
+<addon id="skin.titan.bingie.mod" version="2.3.1" name="BINGIE MOD" provider-name="AchillesPunks, Matke">
 	<requires>
 		<import version="5.18.0" addon="xbmc.gui"/>
 		<import addon="script.bingie.helper" version="1.1.2"/>
@@ -250,13 +251,13 @@ Version 1.30.0
     </extension>
 </addon>
 
-<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.30.0" provider-name="marcelveldt and others">
+<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.30.2" provider-name="marcelveldt and others">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.addon" version="12.0.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
         <import addon="script.module.simplecache" version="2.0.2"/>
-        <import addon="script.module.metadatautils" version="1.30.0"/>
+        <import addon="script.module.metadatautils" version="1.30.1"/>
     </requires>
 
     <extension point="kodi.context.item">
@@ -410,7 +411,7 @@ v1.30.0
     </extension>
 </addon>
 
-  	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.36" provider-name="marcelveldt and others">
+  	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.38" provider-name="marcelveldt and others">
 	<requires>
         <import addon="script.module.simplecache" version="1.0.0"/>
         <import addon="script.module.metadatautils" version="1.1.0"/>
@@ -671,17 +672,17 @@ v0.28.0 (2020-02-08)
 	 <!-- MODULES -->
 <addon id="script.module.metadatautils"
        name="Metadata and Artwork module"
-       version="1.30.0"
+       version="1.30.2"
        provider-name="marcelveldt and others">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.9.1"/>
         <import addon="script.module.beautifulsoup4" version="4.9.3" />
-        <import addon="script.module.thetvdb" version="1.0.34" />
-        <import addon="script.module.musicbrainz" version="0.7.0"/>
+        <import addon="script.module.thetvdb" version="1.0.36" />
+        <import addon="script.module.musicbrainz" version="0.7.1"/>
         <import addon="script.module.simplecache" version="2.0.2"/>
-        <import addon="script.module.arrow" version="0.15.5"/>
-        <import addon="script.module.infotagger" version="0.0.1" />
+        <import addon="script.module.arrow" version="1.2.3"/>
+        <import addon="script.module.infotagger" version="0.1.0" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
