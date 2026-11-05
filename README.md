@@ -7,4 +7,4 @@ https://raw.githubusercontent.com/Jesuslconde/repository.titan.bingie.mod/master
 
 Or add the following address - https://raw.githubusercontent.com/Jesuslconde/repository.titan.bingie.mod/master/repository.titan.bingie.mod/ with file manager in Kodi and install the zip from there.
 
-Kodi 22 (Piers) users get skin.titan.bingie.mod 2.3.1 from the piers/ repository.
+Kodi 22 (Piers) users get skin.titan.bingie.mod 2.3.2 from the piers/ repository.
